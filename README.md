@@ -10,7 +10,7 @@
 ## Команда
     * Sergey Borovikov
     * Alexandr
-    * Unisov Nick
+    * Yunisov Nick
 
 ### Gitflow
 1. Разработчики клонируют репозиторий тим-лида (командные дз будут
