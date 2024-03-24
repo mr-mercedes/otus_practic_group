@@ -1,0 +1,25 @@
+.header {
+  flex-shrink: 0;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(147, 197, 253);
+  background-color: rgb(255, 255, 255);
+  padding: 19px 32px;
+}
+
+.main {
+  display: flex;
+}
+
+.inform {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
