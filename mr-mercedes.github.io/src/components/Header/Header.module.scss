@@ -1,25 +1,26 @@
 .header {
-  flex-shrink: 0;
-}
-
-.wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
   box-sizing: border-box;
   border-bottom: 1px solid rgb(147, 197, 253);
   background-color: rgb(255, 255, 255);
   padding: 19px 32px;
+
+  display: flex;
+  align-items: center;
 }
 
-.main {
+.wrapper {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+
 }
 
 .inform {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   align-items: center;
+
 }

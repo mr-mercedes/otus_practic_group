@@ -1,21 +1,20 @@
 import React from 'react';
-import styles from './Header.module.scss';
-import { Logo } from '../Logo/Logo';
-import { SearchBlock } from '../SearchBlock/SearchBlock';
-import { InformBlock } from '../InformBlock/InformBlock';
+import { InformBlock, SearchBlock } from 'src/components';
 import { Avatar } from '../Avatar/Avatar';
+import { Logo } from '../Logo/Logo';
+import styles from './Header.module.scss';
 
 export const Header = () => {
   return (
     <header className={styles.header}>
-        <div className={styles.wrapper}>
-            <Logo />
-            <SearchBlock />
-            <div className={styles.inform}>
-                <InformBlock />
-                <Avatar />
-            </div>
+      <Logo />
+      <div className={styles.wrapper}>
+        <SearchBlock />
+        <div className={styles.inform}>
+          <InformBlock />
+          <Avatar />
         </div>
+      </div>
     </header>
   );
 };
